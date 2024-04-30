@@ -1,0 +1,41 @@
+.X{
+
+    width: 500px;
+    margin: 0 auto; /* horizontally center */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.884);
+  
+  }
+  .y {
+    margin-bottom: 10px;
+  }
+  .y input[type="text"] {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+  .y button {
+    margin-left: 5px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
