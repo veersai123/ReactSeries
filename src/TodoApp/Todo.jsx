@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
-import './App.css'
+import './Todo.css'
 const Todo = () => {
  const[text,setText]= useState("");
  const[list,setList]=useState(()=>{
